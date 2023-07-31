@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(70, 130, 180, 0.4);
+}
+
+.container {
+    background-color: rgba(70, 130, 180, 0.7);
+    width: 80vw;
+    margin-left: 10vw;
+    border: 2px solid #000;
+    padding: 0 3rem 1rem;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    margin: 0 0 2rem;
+}
+
+h1, h3 {
+    color: navy;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 1.5rem 0;
+}
+
+.white {
+    color: #FFF;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.offwhite {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 23px;
+}
