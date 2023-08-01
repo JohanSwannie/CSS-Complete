@@ -19,9 +19,19 @@
       </p>
       <form>
         <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Fullname" />
+        <input
+          type="text"
+          id="name"
+          placeholder="Fullname"
+          onchange="itHasChanged(event)"
+        />
         <button>Submit</button>
       </form>
     </main>
   </body>
+  <script>
+    const itHasChanged = (e) => {
+      alert(`Change detected with value of ${e.target.value}`);
+    };
+  </script>
 </html>
