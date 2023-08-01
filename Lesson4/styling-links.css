@@ -4,3 +4,29 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: navy;
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover, a:focus {
+    color: steelblue;
+}
+
+a:active {
+    color: red;
+}
