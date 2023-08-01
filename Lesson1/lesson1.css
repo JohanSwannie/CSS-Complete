@@ -7,6 +7,7 @@
 
 body {
     background-color: rgba(70, 130, 180, 0.4);
+    min-height: 100vh /* Allows the body to grow with the content */
 }
 
 button, input, textarea, select {   /*Form elements don't automatically inherit properties */
