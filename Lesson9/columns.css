@@ -10,3 +10,48 @@ body {
    margin: 0.7rem;
    font-family: 'Roboto Flex', sans-serif;
 }
+
+h1 {
+   text-align: center;
+   text-decoration: underline;
+   margin-bottom: 2rem;
+}
+
+p {
+   margin: 1.5rem 0;
+}
+
+.columns {
+   /* column-count: 4;
+   column-width: 12rem; */
+   columns: 4 12rem;
+   column-rule: 1.5px solid #333;
+   column-gap: 6rem;
+}
+
+.columns p {
+   margin: 0;
+}
+
+.columns h2 {
+   font-size: 16px;
+   text-align: center;
+   margin: 0 0 .5rem;
+   background-color: #333;
+   color: #FFF;
+   padding: .5rem;
+   break-inside: avoid;
+   break-before: column;
+}
+
+.columns .quote {
+   margin: 1rem 0;
+   font-size: 2rem;
+   text-align: center;
+   color: #333;
+   column-span: all;
+}
+
+.columns .nowrap {
+   white-space: nowrap;
+}
