@@ -27,6 +27,14 @@ section {
    padding: 1rem;
 }
 
+.smallblock {
+   width: 8vw;
+   height: 8vw;
+   background-color: navy;
+   color: #FFF;
+   padding: 1rem;
+}
+
 .left {
    float: left;
    margin-right: 1rem;
