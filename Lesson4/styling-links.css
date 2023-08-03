@@ -40,3 +40,17 @@ a:hover, a:focus {
 a:active {
     color: red;
 }
+
+#butty {
+    color: #FFF;
+    background-color: navy;
+    margin-top: 2rem;
+    width: 18vw;
+    height: 5vh;
+    margin-left: 41vw;
+}
+
+img {
+    width: 100vw;
+    height: 70vh;
+}
