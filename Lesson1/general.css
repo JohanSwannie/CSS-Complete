@@ -1,21 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap");
+
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 body {
     background-color: rgba(70, 130, 180, 0.4);
-    min-height: 100vh /* Allows the body to grow with the content */
+    min-height: 100vh; /* Allows the body to grow with the content */
 }
 
 button, input, textarea, select {   /*Form elements don't automatically inherit properties */
     font: inherit;
+    font-family: inherit;
 }
 
 .container {
-    background-color: rgba(70, 130, 180, 0.7);
+    background-color: rgba(13, 13, 185, 0.6);
     width: 80vw;
     margin-left: 10vw;
     border: 2px solid #000;
@@ -46,7 +49,7 @@ h3 {
 .offwhite {
     color: rgba(255, 255, 255, 0.7);
     font-weight: bold;
-    font-size: 23px;
+    font-size: 12px;
 }
 
 p span {
