@@ -6,6 +6,10 @@
    box-sizing: border-box;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 body {
    font-family: 'Roboto Flex', sans-serif;
    font-size: 1.3rem;
@@ -60,5 +64,54 @@ body {
    position: sticky;
    top: 20px;
    background-color: yellow;
+}
 
+section {
+   height: 100vh;
+}
+
+.blue {
+   background-color: blue;
+}
+
+.red {
+   background-color: red;
+}
+
+.green {
+   background-color: green;
+}
+
+header, footer {
+   color: #FFF;
+   text-align: center;
+   height: 70px;
+}
+
+header {
+   position: sticky;
+   top: 0;
+   font-size: 4rem;
+}
+
+footer {
+   position: fixed;
+   bottom: 0;
+   background-color: #333;
+   width: 100%;
+}
+
+footer a {
+   color: #FFF;
+}
+
+.social {
+   position: fixed;
+   top: 30%;
+   left: 0;
+   color: #FFF;
+   background-color: steelblue;
+   font-size: inherit;
+   padding: 1rem;
+   z-index: 1;
 }
