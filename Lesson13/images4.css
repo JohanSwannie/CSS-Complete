@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap");
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto Flex', sans-serif;
+   min-height: 100vh;
+   background-color: aliceblue;
+   background-image: url("../Lesson13/img/bubbles.png"), linear-gradient(to left, steelblue, #FFF);
+   background-repeat: repeat-y, no-repeat;
+   background-position: right center;
+   background-size: 20%, auto;
+}
