@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap");
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto Flex', sans-serif;
+   min-height: 100vh;
+   color: #FFF;
+   background-color: steelblue;
+ }
+
+ h2 {
+   text-align: center;
+   text-decoration: underline;
+   margin-bottom: 2rem;
+ }
+
+ form {
+   display: grid;
+   grid-template-columns: repeat(8, .75fr);
+   width: 88vw;
+   margin-left: 6vw;
+   border: 1px solid #FFF;
+   padding: 4vw;
+   margin-bottom: 2rem;
+ }
+
+ label {
+   width: 7vw;
+   margin-right: 1vw;
+ }
+
+ select {
+   width: 10vw;
+   margin-right: 2vw;
+ }
+
+ button {
+   color: #FFF;
+   background-color: crimson;
+   width: 10vw;
+   height: 5vh;
+   margin-left: 45vw;
+   margin-bottom: 2rem;
+ }
+
+ p {
+   text-align: center;
+ }
