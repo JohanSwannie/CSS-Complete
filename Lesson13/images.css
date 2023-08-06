@@ -10,3 +10,64 @@ body {
    font-family: 'Roboto Flex', sans-serif;
    min-height: 100vh;
  }
+
+ .example {
+   margin-top: 1rem;
+   padding-left: 20px;
+   border: 1px solid red;
+ }
+
+ img {
+   display: block;
+ }
+
+ .example img {
+   width: 25%;
+   height: auto;
+ }
+
+ .container {
+   background-color: rgb(251, 210, 156);
+   background-image: url('../Lesson13/img/scenic-2200x1331.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom right;
+}
+
+.hero {
+   background-color: hsla(0, 0%, 0%, .4);
+   border-bottom: 2px solid #000;
+   padding: 20px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 2rem;
+}
+
+h1 {
+   font-size: 400%;
+   color: #FFF;
+   margin-left: 8rem;
+   text-shadow: 2px 2px 5px #000;
+}
+
+.nowrap {
+   white-space: nowrap;
+}
+
+.offscreen {
+   position: absolute;
+   left: -10000px;
+}
+
+ .profile-pic-figure {
+   width: 35%;
+ }
+
+ .profile-pic-figure img {
+   width: 100%;
+   height: auto;
+   min-width: 100px;
+   border: 2.5px solid #000;
+   border-radius: 55%;
+ }
