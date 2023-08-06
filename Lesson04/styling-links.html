@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling-links.css" />
+    <title>CSS Styling Links</title>
+  </head>
+  <body>
+    <header>
+    <h1>CSS Styling Links - Main Page</h1>
+    </header>
+    <main>
+      <p>
+        This is a link to Instagram &nbsp; &nbsp; &#8594; &nbsp;
+        <a href="https://instagram.com/">Instagram Link</a>
+      </p>
+      <p>
+        This is a link to beautiful animals &nbsp; &nbsp; &#8594; &nbsp;
+        <a
+          href="https://a-z-animals.com/blog/10-most-beautiful-animals-in-the-world/"
+          >Beautiful Animals</a
+        >
+      </p>
+      <p>
+        This is a link to Whatsapp &nbsp; &nbsp; &#8594; &nbsp;
+        <a href="https://whatsapp.com">Whatsapp</a>
+      </p>
+      <p>
+        This is a link to Facebook &nbsp; &nbsp; &#8594; &nbsp;
+        <a href="https://facebook.com">Facebook</a>
+      </p>
+      <p>
+        This is a link to the linked-to HTML Component &nbsp; &nbsp; &#8594; &nbsp;
+        <a href="linked-to.html">Link to another HTML</a>
+      </p>
+      <button id="butty">Click me to see some beautiful nature</button>
+  </body>
+  <script>
+    document.getElementById("butty").addEventListener('click', () => {
+      location = "nature.html";
+    })
+  </script>
+</html>
