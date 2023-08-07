@@ -49,6 +49,49 @@ body {
    bottom: 0;
  }
 
+ @media screen and (min-width: 576px) {
+   main {
+      background-color: lime;
+      background-image: radial-gradient(whitemoke, lime);
+   }
+   nav {
+      display: none;
+   }
+ }
+
+ @media screen and (min-width: 768px) {
+   main {
+      background-color: crimson;
+      background-image: radial-gradient(whitemoke, crimson);
+   }
+ }
+
+ @media screen and (min-width: 992px) {
+   main {
+      background-color: rebeccapurple;
+      background-image: radial-gradient(whitemoke, rebeccapurple);
+   }
+ }
+
+ @media screen and (min-width: 1200px) {
+   main {
+      background-color: yellow;
+      background-image: radial-gradient(whitemoke, yellow);
+   }
+ }
+
+ @media screen and (max-height: 425px)  and (min-aspect-ratio: 7/4) {
+   main {
+      background-color: olive;
+      background-image: radial-gradient(whitemoke, olive);
+   }
+   h1, h2 {
+      font-size: 1.5rem;
+   }
+   nav {
+      display: none;
+   }
+ }
  /* @media screen and (min-width: 481px) { starts where pixels are 481px and then upwards
    { apply CSS }
  } */
