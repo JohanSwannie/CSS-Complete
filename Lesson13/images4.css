@@ -9,9 +9,21 @@
 body {
    font-family: 'Roboto Flex', sans-serif;
    min-height: 100vh;
-   background-color: aliceblue;
-   background-image: url("../Lesson13/img/bubbles.png"), linear-gradient(to left, steelblue, #FFF);
-   background-repeat: repeat-y, no-repeat;
-   background-position: right center;
-   background-size: 20%, auto;
+   background-image: url("https://thumbs.dreamstime.com/z/purple-paint-bubbles-5922852.jpg");
+   background-size: cover;
+
+}
+
+.clip {
+   font-weight: 900;
+   font-size: 12rem;
+   text-align: center;
+   line-height: 3;
+   background-image: url("https://as1.ftcdn.net/v2/jpg/05/49/40/30/1000_F_549403090_EnGEt6o05NEBwt1GbPuJNMl3067VvRk0.jpg");
+   background-size: cover;
+   text-transform: uppercase;
+   -webkit-background-clip: text;
+   background-clip: text;
+   /* color: hsla(0, 0%, 0%, 0.194); */
+   color: transparent;
 }
