@@ -8,5 +8,38 @@
 
 body {
    font-family: 'Roboto Flex', sans-serif;
+   font-size: 1.5rem;
    min-height: 100vh;
+   background-color: #475569;;
+   background-image: radial-gradient(whitesmoke, #475569);
+   display: flex;
+   flex-direction: column;
  }
+
+ header, nav, main, footer {
+   display: grid;
+   place-content: center;
+ } 
+
+ header, footer {
+   background-color: #1E293B;
+   color: whitesmoke;
+ }
+
+ /* @media screen and (min-width: 481px) { starts where pixels are 481px and then upwards
+   { apply CSS }
+ } */
+
+ /* or  */
+
+ /* @media screen and (max-width: 1480px) { starts where pixels are whatever minimum and then to 1480px 
+   { apply CSS }
+ } */
+
+ /* @media screen and (min-aspect-ratio: 7/4) { starts where width is 7 and height is 4 in ration
+   {apply CSS}
+ } */
+
+ /* @media screen and (orientation: landscape) { Applied where the orientation is landscape
+   { apply CSS }
+ } */
