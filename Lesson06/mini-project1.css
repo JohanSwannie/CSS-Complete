@@ -22,9 +22,9 @@ nav {
 }
 
 h2 {
-   padding: 1rem;
    background-color: gold;
    border-radius: 2rem 2rem 0 0;
+   padding: 1rem;
 }
 
 ul {
@@ -32,6 +32,7 @@ ul {
 }
 
 li {
+   background-color: rgba(255, 215, 0, 0.1);
    border-top: 1px solid #333;
 }
 
