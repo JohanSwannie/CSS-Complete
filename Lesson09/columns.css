@@ -24,7 +24,7 @@ p {
 .columns {
    /* column-count: 4;
    column-width: 12rem; */
-   columns: 4 12rem;
+   columns: 4 11rem;
    column-rule: 1.5px solid #333;
    column-gap: 6rem;
 }
