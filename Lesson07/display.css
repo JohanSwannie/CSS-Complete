@@ -11,6 +11,10 @@ body {
    font-family: 'Roboto Flex', sans-serif;
 }
 
+h1 {
+   text-align: center;
+}
+
 p {
    background-color: lightgray;
    border: 1px solid #000;
@@ -21,7 +25,7 @@ p {
    display: inline-block;
    background-color: #333;
    color: #f3e0e0;
-   padding: 7rem;
+   padding: 6rem;
    margin-top: 2rem;
    height: 10rem;
    width: 40rem;
